@@ -16,6 +16,7 @@
 		22C0EEFD259B709F00025566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0EEFC259B709F00025566 /* ContentView.swift */; };
 		22C0EEFF259B709F00025566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C0EEFE259B709F00025566 /* Assets.xcassets */; };
 		22C0EF02259B709F00025566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C0EF01259B709F00025566 /* Preview Assets.xcassets */; };
+		22F58370259F277600181C20 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F5836F259F277600181C20 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		22C0EEFE259B709F00025566 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C0EF01259B709F00025566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22C0EF03259B709F00025566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F5836F259F277600181C20 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2224703B259C3DFD00B0BFA1 /* FruitCardView.swift */,
 				2224703F259C43E100B0BFA1 /* StartButtonView.swift */,
+				22F5836F259F277600181C20 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				22292980259CBDC600EE0932 /* FruitData.swift in Sources */,
 				2224703C259C3DFD00B0BFA1 /* FruitCardView.swift in Sources */,
+				22F58370259F277600181C20 /* FruitRowView.swift in Sources */,
 				22247040259C43E100B0BFA1 /* StartButtonView.swift in Sources */,
 				22C0EEFD259B709F00025566 /* ContentView.swift in Sources */,
 				22247043259C484C00B0BFA1 /* OnboardingView.swift in Sources */,
