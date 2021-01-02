@@ -8,13 +8,8 @@
 import SwiftUI
 
 struct FruitCardView: View {
-    // MARK: -PROPERTIES
-    
     var fruit: Fruit
-    
     @State private var isAnimating: Bool = false
-    
-    // MARK: -BODY
     
     var body: some View {
         ZStack {
@@ -55,8 +50,6 @@ struct FruitCardView: View {
         .padding(.horizontal, 20)
     }
 }
-
-// MARK: -PREVIEW
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
