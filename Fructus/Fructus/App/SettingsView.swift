@@ -89,6 +89,5 @@ struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
             .preferredColorScheme(.dark)
-            .previewDevice("iPhone 11 Pro")
     }
 }
