@@ -12,11 +12,12 @@ struct FeaturedTabView: View {
         TabView {
             ForEach(players) { player in
                 FeaturedItemView(player: player)
-                    .padding(.top, 10)
-                    .padding(.horizontal, 15)
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 16)
             }
         }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+        .aspectRatio(1.6, contentMode: .fit)
     }
 }
 
